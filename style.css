@@ -1,4 +1,8 @@
-header {
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* header {
     height: 3rem;
     width: 100%;
     position: fixed;
@@ -41,7 +45,7 @@ header {
 .nav-btn:hover {
     text-decoration: underline;
     color: gray;
-}
+} */
 
 /* main */
 
