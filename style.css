@@ -51,22 +51,27 @@ body {
 /* main */
 
 main {
+    position: sticky;
     text-align: center;
     margin-top: 3rem;
+    z-index: 3;
 }
 
 .container {
     background: white;
     border: 1px solid black;
-    width: 40%;
+    width: 50%;
     margin: 0 auto;
     padding-bottom: 2rem;
+    min-width: 250px;
+    margin-bottom: 3rem;
 }
 
+
 h1 {
-    font-size: 5rem;
     margin: 0;
-    padding-top: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
 }
 
 input {
@@ -78,7 +83,7 @@ input {
 #counter {
     font-size: 10rem;
     width: 50%;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     border: none;
     outline: none;
 }
@@ -110,7 +115,7 @@ button {
 
 footer {
     margin-top: 3rem;
-    z-index: 0;
+    z-index: 1;
     position: fixed;
     bottom: 0;
     font-size: 1rem;
@@ -118,6 +123,7 @@ footer {
     color: white;
     left: 0;
     right: 0; 
+    
 }
 
 .footer-grid-container {
@@ -135,4 +141,9 @@ footer {
 
 .footer-info {
     grid-area: footer-info;
+    
+}
+
+@media only screen and (max-widht: 750px) {
+    
 }
